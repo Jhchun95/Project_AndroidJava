@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/ivsn01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sn_bggobong"/>
+
+    <TextView
+        android:id="@+id/tvsn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ivsn01"
+        android:text="고봉민김밥인"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+        android:id="@+id/tvsn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvsn01"
+        android:text="안양시 동안구 평촌대로217번길 45"
+        android:textColor="#000000" />
+
+</RelativeLayout>

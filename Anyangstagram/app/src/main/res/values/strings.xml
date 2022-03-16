@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">안양스타그램</string>
+    <string name="facebook_app_id">2101654030121284</string>
+    <string name="fb_login_protocol_scheme"> fb_login_protocol_scheme </string>
+    <string name="sortlabel">"종류   : "</string>
+    <string name="namelabel">"이름   : "</string>
+    <string name="placelabel">"분류   : "</string>
+    <string name="addresslabel">"주소   : "</string>
+    <string name="numberlabel">"번호   : "</string>
+    <string name="pricelabel">"대표   : "</string>
+    <string name="emptylabel">"메뉴     "</string>
+    <string name="emptylabel2">" "</string>
+    <string name="emptylabel3">" "</string>
+
+</resources>

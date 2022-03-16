@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivwt01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/wt_01"/>
+
+    <TextView
+        android:id="@+id/tvwt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ivwt01"
+        android:text="구스테이블"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+        android:id="@+id/tvwt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvwt01"
+        android:text="경기 안양시 동안구 평촌대로223번길 28"
+        android:textColor="#000000" />
+
+</RelativeLayout>

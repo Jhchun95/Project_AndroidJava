@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/ivbar01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bar_a1hakuhaku"/>
+
+    <TextView
+        android:id="@+id/tvbar01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ivbar01"
+        android:text="하쿠하쿠 안양1번가"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+        android:id="@+id/tvbar02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvbar01"
+        android:text="안양시 만안구 장내로143번길 12"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/ivcf01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cf_01"/>
+
+    <TextView
+        android:id="@+id/tvcf01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ivcf01"
+        android:text="엔젤리너스 범계점"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+        android:id="@+id/tvcf02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvcf01"
+        android:text="경기 안양시 동안구 평촌대로223번길 56"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#00FF00">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bf_qooqoo1"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/detail_foodpattern2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="8"
+                                android:text=" 쿠우쿠우 범계점 "
+                                android:textColor="#000000"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/wrBtn_Bf00"
+                                android:layout_width="53dp"
+                                android:layout_height="53dp"
+                                android:gravity="right"
+                                android:background="@drawable/writing"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="주소"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp">
+                                </TextView>
+
+                                <TextView
+                                    android:layout_width="1dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center"
+                                    android:background="#000000"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="경기 안양시 동안구 평촌대로223번길 52"
+                                    android:textColor="#000000"
+                                    android:textSize="15dp"
+                                    android:layout_weight="0.35">
+                                </TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="6"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#000000"
+                                    android:gravity="center" />
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#FFFFFF"/>
+                                <TextView
+                                    android:layout_weight="24"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#000000"
+                                    android:gravity="center" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="전화번호"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:layout_margin="3dp">
+                                </TextView>
+
+                                <TextView
+                                    android:layout_width="1dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center"
+                                    android:background="#000000"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="031-383-6274"
+                                    android:textColor="#000000"
+                                    android:textSize="15dp"
+                                    android:layout_weight="0.35">
+                                </TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="6"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#000000"
+                                    android:gravity="center" />
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#FFFFFF"/>
+                                <TextView
+                                    android:layout_weight="24"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#000000"
+                                    android:gravity="center" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="영업시간"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:layout_margin="3dp">
+                                </TextView>
+
+                                <TextView
+                                    android:layout_width="1dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center"
+                                    android:background="#000000"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="매일 11:00 - 22:00"
+                                    android:textColor="#000000"
+                                    android:textStyle="normal"
+                                    android:textSize="15dp"
+                                    android:layout_weight="0.35">
+                                </TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_weight="6"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#000000"
+                                    android:gravity="center" />
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#FFFFFF"/>
+                                <TextView
+                                    android:layout_weight="24"
+                                    android:layout_width="20dp"
+                                    android:layout_height="1dp"
+                                    android:background="#000000"
+                                    android:gravity="center" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.7"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="메뉴"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp">
+                                </TextView>
+
+                                <TextView
+                                    android:layout_width="1dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:background="#000000"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.35">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal"
+                                        android:layout_weight="1">
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.9"
+                                            android:orientation="vertical">
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="평일 런치"
+                                                android:textSize="13dp"
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="초등학생"
+                                                android:textSize="13dp"
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="36개월 이상                               아동"
+                                                android:textSize="13dp"
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text=""
+                                                android:textSize="13dp"
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1.05"
+                                            android:orientation="vertical">
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="16,900원"
+                                                android:textSize="13dp"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="12,900원"
+                                                android:textSize="13dp"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="6,000원"
+                                                android:textSize="13dp"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text=""
+                                                android:textSize="13dp"
+                                                android:textColor="#000000">
+                                            </TextView>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.95"
+                                            android:orientation="vertical">
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="평일 디너"
+                                                android:textSize="13dp"
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="주말 공휴일"
+                                                android:textSize="13dp"
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text=""
+                                                android:textSize="13dp"
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:textSize="13dp"
+                                                android:text=""
+                                                android:textStyle="italic"
+                                                android:textColor="#000000">
+                                            </TextView>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1">
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:orientation="vertical">
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:gravity="center"
+                                                    android:text="19,900원"
+                                                    android:textSize="13dp"
+                                                    android:textColor="#000000">
+                                                </TextView>
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:gravity="center"
+                                                    android:text="19,900원"
+                                                    android:textSize="13dp"
+                                                    android:textColor="#000000">
+                                                </TextView>
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:gravity="center"
+                                                    android:text=""
+                                                    android:textSize="13dp"
+                                                    android:textColor="#000000">
+                                                </TextView>
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:gravity="center"
+                                                    android:text=""
+                                                    android:textSize="13dp"
+                                                    android:textColor="#000000">
+                                                </TextView>
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>

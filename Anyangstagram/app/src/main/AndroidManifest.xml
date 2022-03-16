@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anyangstagram">
+    <uses-feature android:required="true" android:glEsVersion="0x00020000"/>
+    <permission android:name="com.example.anyangstagram.permission.MAPS_RECEIVE"
+        android:label="signature"></permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <meta-data android:name ="com.google.android.gms.version"
+        android:value = "@integer/google_play_services_version"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_angyang"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+                    android:value="@string/facebook_app_id"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            />
+
+        <activity android:name=".MainmenuActivity" android:label="안양스타그램" />
+        <activity android:name=".SearchActivity" android:label="검 색" />
+        <activity android:name=".CategoryActivity" android:label="음식점 종류" />
+        <activity android:name=".BookmarkActivity" android:label="즐겨찾기" />
+        <activity android:name=".MapActivity" android:label="지 도"/>
+        <activity android:name=".MyPageActivity" android:label="마이페이지" />
+        <activity android:name=".CouponBookActivity" android:label="쿠폰북"/>
+        <activity android:name=".Korea_listActivity" android:label="한 식" />
+        <activity android:name=".KrListDetail" android:label="한식 리스트뷰" />
+        <activity android:name=".China_listActivity" android:label="중 식" />
+        <activity android:name=".ChListDetail" android:label="중식 리스트뷰" />
+        <activity android:name=".Japan_listActivity" android:label="일 식" />
+        <activity android:name=".JpListDetail" android:label="일식 리스트뷰" />
+        <activity android:name=".Western_listActivity" android:label="양 식" />
+        <activity android:name=".WtListDetail" android:label="양식 리스트뷰"/>
+        <activity android:name=".Cafe_listActivity" android:label="카페/디저트" />
+        <activity android:name=".CfListDetail" android:label="카페/디저트 리스트뷰" />
+        <activity android:name=".Buffet_listActivity" android:label="뷔 페" />
+        <activity android:name=".BfListDetail" android:label="뷔페 리스트뷰" />
+        <activity android:name=".Snack_listActivity" android:label="분 식" />
+        <activity android:name=".SnListDetail" android:label="분식 리스트뷰" />
+        <activity android:name=".Bar_listActivity" android:label="주 점" />
+        <activity android:name=".BarListDetail" android:label="주점 리스트뷰" />
+        <activity android:name=".Fastfood_listActivity" android:label="패스트푸드 및 치킨/피자" />
+        <activity android:name=".FastfoodListDetail" android:label="패스트푸드 리스트뷰" />
+
+        <activity android:name=".Kr00Daebak" android:label="[한식] 대박집"/> <!--> 한식00 <!-->
+        <activity android:name=".Kr01Bukchang" android:label="[한식] 북창동 순두부"/>
+        <activity android:name=".Kr02Dumbak" android:label="[한식] 듬박이"/>
+        <activity android:name=".Kr03Heogane" android:label="[한식] 허가네 맛집"/>
+        <activity android:name=".Kr04Muhangalbi" android:label="[한식] 무한갈비고수"/>
+        <activity android:name=".Kr05Gobchangpoksik" android:label="[한식] 곱창폭식"/>
+        <activity android:name=".Kr06Anyanggamjatang" android:label="[한식] 안양감자탕"/>
+        <activity android:name=".Kr07Ricesarang" android:label="[한식] 밥사랑" />
+        <activity android:name=".Kr08Honggane" android:label="[한식] 홍가네 영양센타"/>
+        <activity android:name=".Kr09Hoyun" android:label="[한식] 호윤식당"/>
+        <activity android:name=".Kr10Sunnam" android:label="[한식] 순남시래기"/>
+        <activity android:name=".Kr11Jjigae" android:label="[한식] 찌개마을502"/>
+        
+        <activity android:name=".Ch00Chyamppongtime" android:label="[중식] 짬뽕타임"/>
+        <activity android:name=".Ch01HongkongA1" android:label="[중식] 홍콩반점0410 안양1번가점"/>
+        <activity android:name=".Ch02Dragon" android:label="[중식] 드래곤"/>
+        <activity android:name=".Ch03BukkyeongA1" android:label="[중식] 북경짜장2900"/>
+        <activity android:name=".Ch04Hwanggung" android:label="[중식] 황궁쟁반짜장 춘자 성결대점"/>
+        <activity android:name=".Ch05Sanhaewon" android:label="[중식] 산해원"/>
+        <activity android:name=".Ch06HongkongBg" android:label="[중식] 홍콩반점0410 범계역점"/>
+        <activity android:name=".Ch07Nippongnaeppong" android:label="[중식] 니뽕내뽕"/>
+        <activity android:name=".Ch08Charles" android:label="[중식] 찰스탕수육"/>
+        <activity android:name=".Ch09Manrijangsung" android:label="[중식] 만리장성 안양1번가점"/>
+        <activity android:name=".Ch10Haohao" android:label="[중식] 하오하오"/>
+
+        <activity android:name=".Jp00Hakata" android:label="[일식] 하카타"/>
+        <activity android:name=".Jp01KobegyuA1" android:label="[일식] 고베규카츠 안양일번가점"/>
+        <activity android:name=".Jp02KobegyuBg" android:label="[일식] 고베규카츠 범계점"/>
+        <activity android:name=".Jp03Kyotokatsugyu" android:label="[일식] 교토가츠규 범계점"/>
+        <activity android:name=".Jp04Sushihiro" android:label="[일식] 스시히로바"/>
+        <activity android:name=".Jp05Hongdaiari" android:label="[일식] 홍대개미"/>
+        <activity android:name=".Jp06Aoriramen" android:label="[일식] 아오리라멘 범계점"/>
+        <activity android:name=".Jp07Ramenkibun" android:label="[일식] 라멘키분"/>
+        <activity android:name=".Jp08Kyoutezukuri" android:label="[일식] 오늘은 수제돈가스"/>
+        <activity android:name=".Jp09Hakuhaku" android:label="[일식] 하쿠하쿠"/>
+        <activity android:name=".Jp10Umaishokudou" android:label="[일식] 우마이식당"/>
+        <activity android:name=".Jp11Sazosasimi" android:label="[일식] 사조회참치 인덕원점"/>
+
+        <activity android:name=".Cf00AngelinusBg" android:label="[카페/디저트] 엔젤리너스 범계점"/>
+        <activity android:name=".Cf01TomnToms" android:label="[카페/디저트] 탐앤탐스"/>
+        <activity android:name=".Cf02Bback" android:label="[카페/디저트] 빽다방 범계점"/>
+        <activity android:name=".Cf03StarBucks" android:label="[카페/디저트] 스타벅스 범계점"/>
+        <activity android:name=".Cf04SnowIceBg" android:label="[카페/디저트] 설빙 안양일번가점"/>
+        <activity android:name=".Cf05TokyoIceBg" android:label="[카페/디저트] 도쿄빙수 안양일번가점"/>
+        <activity android:name=".Cf06KafeawaitA1" android:label="[카페/디저트] kafe await 안양일번가점"/>
+        <activity android:name=".Cf07PetitereineA1" android:label="[카페/디저트] 쁘띠렌 안양점"/>
+        <activity android:name=".Cf08DogandCat" android:label="[카페/디저트] 개와 고양이의 시간"/>
+        <activity android:name=".Cf09BuonAmici" android:label="[카페/디저트] 본아미치 성결대점"/>
+        <activity android:name=".Cf10EDIYA" android:label="[카페/디저트] EDIYA 성결대점"/>
+
+        <activity android:name=".Bf00Qooqoo" android:label="[뷔페] 쿠우쿠우"/>
+        <activity android:name=".Bf01Season" android:label="[뷔페] 계절밥상"/>
+        <activity android:name=".Bf02Ashley" android:label="[뷔페] 애슐리"/>
+        <activity android:name=".Bf03Ccledor" android:label="[뷔페] 끌레드쉐프"/>
+        <activity android:name=".Bf04Sumith" android:label="[뷔페] 스시스미스"/>
+        <activity android:name=".Bf05Goodpork" android:label="[뷔페] 착한돼지"/>
+        <activity android:name=".Bf06Grass" android:label="[뷔페] 풀잎채"/>
+        <activity android:name=".Bf07Honam" android:label="[뷔페] 호남식당"/>
+
+        <activity android:name=".Wt00Gustable" android:label="[양식] 구스테이블 범계점"/>
+        <activity android:name=".Wt01SeogaBg" android:label="[양식] 서가앤쿡 범계점"/>
+        <activity android:name=".Wt02Uglystove" android:label="[양식] 어글리스토브"/>
+        <activity android:name=".Wt03Blackstone" android:label="[양식] 블랙스톤"/>
+        <activity android:name=".Wt04Laurens" android:label="[양식] 로렌스308"/>
+        <activity android:name=".Wt05SeogaA1" android:label="[양식] 서가앤쿡 안양일번가점"/>
+        <activity android:name=".Wt06Urbanchic" android:label="[양식] 어반시크"/>
+        <activity android:name=".Wt07Covent" android:label="[양식] 코벤트가든"/>
+        <activity android:name=".Wt08Lululala" android:label="[양식] lululala"/>
+        <activity android:name=".Wt09Thepan" android:label="[양식] The pan"/>
+        <activity android:name=".Wt10Gijigae" android:label="[양식] 기지개 피자"/>
+
+        <activity android:name=".Bar00Hakuhaku" android:label="[주점] 하쿠하쿠"/>
+        <activity android:name=".Bar01Gstar" android:label="[주점] 지스타에일"/>
+        <activity android:name=".Bar02Agit" android:label="[주점] 아지트"/>
+        <activity android:name=".Bar03Limchangjung" android:label="[주점] 임창정의 소주한잔"/>
+        <activity android:name=".Bar04Alcholtree" android:label="[주점] 알콜트리"/>
+        <activity android:name=".Bar05ThreeNinePocha" android:label="[주점] 삼구포차"/>
+        <activity android:name=".Bar06Gyodong" android:label="[주점] 교동전선생"/>
+        <activity android:name=".Bar07Pochaagain" android:label="[주점] 포차어게인"/>
+        <activity android:name=".Bar08Eightpiece" android:label="[주점] 에잇피스"/>
+        <activity android:name=".Bar09PopandGril" android:label="[주점] 사니스펍앤그릴 범계점"/>
+        <activity android:name=".Bar10Souldoga" android:label="[주점] 술도가전집"/>
+        <activity android:name=".Bar11OkChul" android:label="[주점] 옥이네칼국수 철이네포차"/>
+        <activity android:name=".Bar12Jongro" android:label="[주점] 종로빈대떡 성결대점"/>
+        <activity android:name=".Bar13Jagalchi" android:label="[주점] 자갈치회포차 성결대점"/>
+
+        <activity android:name=".Sn00Gobongmin" android:label="[분식] 고봉민김밥" />
+        <activity android:name=".Sn01Sinjun" android:label="[분식] 신전떡볶이" />
+        <activity android:name=".Sn02Jinmi" android:label="[분식] 진미떡볶이" />
+        <activity android:name=".Sn03Sinpo" android:label="[분식] 신포우리만두" />
+        <activity android:name=".Sn04Bbalbong" android:label="[분식] 빨봉분식" />
+        <activity android:name=".Sn05Moise" android:label="[분식] 모이세분식" />
+        <activity android:name=".Sn06Dukki" android:label="[분식] 두끼떡볶이"/>
+        <activity android:name=".Sn07Youthcafe" android:label="[분식] 청년다방"/>
+        <activity android:name=".Sn08Namchon" android:label="[분식] 남촌김밥"/>
+        <activity android:name=".Sn09Dongdaemun" android:label="[분식] 동대문 엽기떡볶이"/>
+        <activity android:name=".Sn10Bedel" android:label="[분식] 벧엘김밥"/>
+
+        <activity android:name=".Ff00MomsSku" android:label="[패스트푸드] 맘스터치 성결대점"/>
+        <activity android:name=".Ff01YogurpressoSku" android:label="[패스트푸드] 요거프레소 성결대점"/>
+        <activity android:name=".Ff02PizzaschoolSku" android:label="[패스트푸드] 피자스쿨 성결대점" />
+        <activity android:name=".Ff03LotteriaMago" android:label="[패스트푸드] 롯데리아 만안구청점"/>
+        <activity android:name=".Ff04MomsBg" android:label="[패스트푸드] 맘스터치 범계점"/>
+        <activity android:name=".Ff05MosBg" android:label="[패스트푸드] 모스버거 범계점"/>
+        <activity android:name=".Ff06MisterBg" android:label="[패스트푸드] 미스터피자 범계점"/>
+        <activity android:name=".Ff07CikagoBg" android:label="[패스트푸드] 오리지널시카고피자 범계점"/>
+        <activity android:name=".Ff08MomsA1" android:label="[패스트푸드] 맘스터치 안양일번가점"/>
+        <activity android:name=".Ff09MisterA1" android:label="[패스트푸드] 미스터피자 안양일번가점"/>
+        <activity android:name=".Ff10MacA1" android:label="[패스트푸드] 맥도날드 안양일번가점"/>
+        <activity android:name=".Ff11KfcA1" android:label="[패스트푸드] KFC 안양일번가점"/>
+
+        <activity android:name=".MultiMemoActivity" android:label="리 뷰"/>
+
+        <activity android:name=".MemoInsertActivity" android:label="리뷰 쓰기" />
+        <activity android:name=".PhotoCaptureActivity" android:label="사진 촬영"/>
+        <activity android:name=".PhotoSelectionActivity" android:label="사진 첨부"/>
+        <activity android:name=".SearchSingleItemView" android:label="검 색"/>
+
+        <activity android:name=".InterestActivity" />
+
+        <activity android:name=".Coupon01Kyoto" android:label="쿠폰"/>
+        <activity android:name=".Coupon02Qooqoo" android:label="쿠폰"/>
+        <activity android:name=".Coupon03Seoga" android:label="쿠폰"/>
+        <activity android:name=".Coupon04Sinjun" android:label="쿠폰"/>
+
+
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAVa0n5wJkOGfO_ZDCBnzyh0CQCASWHT4c"/>
+    </application>
+
+</manifest>
