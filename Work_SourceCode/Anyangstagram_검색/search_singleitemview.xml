@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/searchbackground">
+
+    <TextView
+        android:id="@+id/sortlabel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:text="@string/sortlabel"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sortlabel"
+        android:layout_toRightOf="@+id/sortlabel" />
+
+    <TextView
+        android:id="@+id/namelabel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/sortlabel"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/namelabel" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sort"
+        android:layout_alignBaseline="@+id/namelabel"
+        android:layout_toRightOf="@+id/namelabel" />
+
+    <TextView
+        android:id="@+id/placelabel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/namelabel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/placelabel" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_alignBaseline="@+id/placelabel"
+        android:layout_toRightOf="@+id/placelabel" />
+
+    <TextView
+        android:id="@+id/addresslabel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/placelabel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/addresslabel" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_alignBaseline="@+id/addresslabel"
+        android:layout_toRightOf="@+id/addresslabel" />
+
+    <TextView
+        android:id="@+id/numberlabel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addresslabel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/numberlabel" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_alignBaseline="@+id/numberlabel"
+        android:layout_toRightOf="@+id/numberlabel" />
+
+    <TextView
+        android:id="@+id/pricelabel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/numberlabel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/pricelabel" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_alignBaseline="@+id/pricelabel"
+        android:layout_toRightOf="@+id/pricelabel" />
+
+    <TextView
+        android:id="@+id/emptylabel"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pricelabel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/emptylabel" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_alignBaseline="@+id/emptylabel"
+        android:layout_toRightOf="@+id/emptylabel" />
+
+    <TextView
+        android:id="@+id/emptylabel2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/emptylabel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/emptylabel2" />
+
+    <TextView
+        android:id="@+id/price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_alignBaseline="@+id/emptylabel2"
+        android:layout_toRightOf="@+id/emptylabel2" />
+
+    <TextView
+        android:id="@+id/emptylabel3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/emptylabel2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="@string/emptylabel3" />
+
+    <TextView
+        android:id="@+id/newprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:layout_alignBaseline="@+id/emptylabel3"
+        android:layout_toRightOf="@+id/emptylabel3" />
+
+
+</RelativeLayout>

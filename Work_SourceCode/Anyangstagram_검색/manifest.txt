@@ -1,0 +1,5 @@
+	
+	<activity android:name=".SingleItemView" > </activity>
+    </application>
+
+</manifest>
