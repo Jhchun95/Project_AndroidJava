@@ -25,17 +25,17 @@
      </br>
      
 > 2. __상세정보__  
-     <img src="./img/search.PNG" width="600" height="260">  
+     <img src="./img/detailinform.PNG" width="600" height="260">  
      → 음식의 종류를 먼저 선택하고, 음식점 및 어플에서 제공해주는 상세정보를 확인할 수 있다.  
      </br>
      
 > 3. __지도 검색__  
-     <img src="./img/search.PNG" width="600" height="260">  
+     <img src="./img/markdown_map.PNG" width="600" height="260">  
      → 어플에 등록된 음식점의 위치를 구글맵을 통해 확인할 수 있다.  
      </br>
      
 > 4. __글쓰기__  
-     <img src="./img/search.PNG" width="600" height="260">  
+     <img src="./img/reviewwrite.PNG" width="380" height="260">  
      → 상세 정보의 글쓰기를 통해 글을 작성할 수 있다.  
 
 ### :heavy_check_mark: 팀 구성 및 기간
